@@ -18,12 +18,25 @@ body {
 }
 
 .bg {
-  width: 100vw;
-  height: 100vh;
   background-image: url("./assets/pexels-greg-2418664.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  -webkit-filter: blur(70px);
+          filter: blur(70px);
+  max-width: 100%;
+}
+
+.loading-text {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: bold;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
