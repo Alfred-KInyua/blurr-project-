@@ -1,9 +1,7 @@
 const bg = document.querySelector('.bg');
 const loadText = document.querySelector('.loading-text');
 // eslint-disable-next-line max-len
-const scale = (num, inMin, inMax, outMin, outMax) =>
-  ((num - inMin) * (outMax - outMin)) / (inMax - inMin) + outMin;
-
+const scale = (num, inMin, inMax, outMin, outMax) => ((num - inMin) * (outMax - outMin)) / (inMax - inMin) + outMin;
 let load = 0;
 let int;
 
