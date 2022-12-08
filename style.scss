@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   display: flex;
   justify-content: center;
@@ -8,6 +9,7 @@ body {
   margin: 0;
   height: 100vh;
 }
+
 .bg {
   background-image: url('./assets/pexels-greg-2418664.jpg');
   background-repeat: no-repeat;
@@ -22,6 +24,7 @@ body {
   filter: blur(70px);
   max-width: 100%;
 }
+
 .loading-text {
   font-size: 26px;
   font-style: normal;
