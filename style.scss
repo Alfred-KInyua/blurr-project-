@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+}
+
+.bg {
+  background-image: url('./assets/pexels-greg-2418664.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  filter: blur(0);
+  max-width: 100%;
+}
+
+.loading-text {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+}
